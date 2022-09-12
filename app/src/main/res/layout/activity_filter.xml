@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".activity.FilterActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cgSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipapple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipasus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asus" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipgigabyte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gigabyte" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chiphp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chiplenovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lenovo" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPU" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cgCpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipIntel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intel" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipRyzen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ryzen" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAM" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cgRam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip8g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8GB" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip16g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16GB" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="3dp"
+        android:text="Button" />
+</LinearLayout>

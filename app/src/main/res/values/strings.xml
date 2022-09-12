@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shop App</string>
+
+    <string name="first_slide">Choose you products</string>
+    <string name="second_silde">Fast Delivery</string>
+    <string name="third_silde">Good Service</string>
+
+    <string name="nav_home">Trang chính</string>
+    <string name="nav_favorite">Yêu thích</string>
+    <string name="nav_history">Lịch sử</string>
+    <string name="nav_account">Tài khoản</string>
+    <string name="nav_myprofile">Thông tin cá nhân</string>
+    <string name="nav_change_pass">Đổi mật khẩu</string>
+
+    <string name="nav_in">open</string>
+    <string name="nav_out">close</string>
+
+    <string name="description">Thank you for using my product</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
